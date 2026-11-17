@@ -1,0 +1,21 @@
+
+body{background:#fafafa;color:#212529;font-family:"Golos",Arial,sans-serif}
+@font-face{font-family:Golos;src:url("../fonts/GolosText-Regular.ttf")}
+@font-face{font-family:Golos;src:url("../fonts/GolosText-Medium.ttf");font-weight:500}
+@font-face{font-family:Golos;src:url("../fonts/GolosText-Bold.ttf");font-weight:700}
+.site-header,footer,.panel{background:#fff;border-radius:12px;box-shadow:0 2px 14px #172b4d12}
+.site-header{margin:18px 0;padding:14px 22px}
+.brand{font-size:1.45rem;font-weight:700;color:#212529;text-decoration:none}
+.hero{background:linear-gradient(120deg,#e8f3f0,#f8f3e9);border-radius:16px;padding:28px;margin-bottom:24px}
+.room-card{border:0;border-radius:14px;overflow:hidden;box-shadow:0 3px 16px #172b4d12;height:100%}
+.room-card img{height:220px;object-fit:cover}
+.room-card .card-body{display:flex;flex-direction:column}
+.room-card .card-body ul{padding-left:20px}
+.room-card .btn{margin-top:auto}
+footer{margin:30px 0 16px;padding:20px}
+.form-panel{background:white;border-radius:14px;padding:24px;box-shadow:0 3px 16px #172b4d12}
+.muted{color:#6c757d}
+.status{display:inline-block;padding:4px 9px;border-radius:20px;font-size:.85rem}
+.status-pending{background:#fff3cd;color:#664d03}.status-approved{background:#d1e7dd;color:#0f5132}.status-rejected{background:#f8d7da;color:#842029}
+.table td,.table th{vertical-align:middle}
+@media(max-width:600px){.hero{padding:20px}.site-header{padding:12px}}
